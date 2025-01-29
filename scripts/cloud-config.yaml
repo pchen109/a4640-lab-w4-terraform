@@ -6,4 +6,9 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - <public-key>
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCEottRvlMToT7ec+arpk0kPSKlHNsm5Gm8YSiYrwA2Xtti64bx54S+sD1AD134ic7O+SyZ5SZAFP7ON8laYui4QeJqNwlfd4VrKbCHFY6XJfmXfUMbAnU0TZdP+c9w0l8XZ+9ZvgkLKXzTqI1KeQxK5WmRmscOAZjHO/z+wr+cTbybqT+R+SR4KcFbC57iOYA5rolykwyD0hvNuyyOl0Tu9MbEaSZH9LgW1oCx8XhOLnaLwYwZQ3d7/94Fvi3bu2F2p8Cpb1qkZBBZkiq8Fb7wA5QNVVI6+/5rJVP8cc22fZCP7oclL1DF3DMRHdKCTkiRjKZPIKIEm8BDu9N0zvYrjMjLZ8NhnnW9YHPT4NMcErgYiuxIY+FtAs9XSWkEvHtlwRvqUh6v0+T1zj1xpwDM+XF3oWeuwb9vHDse0s+mPbbFN25RoJALDENlVMCNfHZy4AqxSbnO2HaUqTNytGKN3zlBNz3taKhSYQhX7wjb49PayFysoW3vd4X/tqdUMVHSMNLyUy1f+xD9Y2KP5eepfzE9DIwZ23T9eFSoMuUcCCikAencYI+wwHQ8KmbNdi8jQHcSaOAV62ZzN0dJTzGiZAbht33a5TNarcVnOk846j8ICh8531cD1oVsw518XigYq9peY1Gt8kqKdrH+hkOSwhHBjNFQXHXwoVBMnPqkKw== ahri@ahri-virtual-machine
+
+# Install packages
+packages:
+  - nginx
+  - nmap
